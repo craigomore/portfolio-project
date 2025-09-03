@@ -1,8 +1,18 @@
-body{height: 100vh;
+body{min-height: 100vh;
     padding-left: 375px;
     padding-right: 450px;
-    background-size: 300vh;}
+    background-size: 300vh;
+}
 
 img{padding-left: 200px;}
 
 #contacts{font-size: large;}
+p{background-color:transparent;
+    border: 0 0 10px solid black;
+   box-shadow: 0 0 10px black;
+}
+ul{background-color: transparent;
+  border:0 0 10px;
+  box-shadow: 0 0 10px black;
+}
+#project{max-height: 250px;}
